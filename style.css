@@ -1,4 +1,7 @@
-
+* {
+    
+    background-color: beige;
+}
 
 
 .navbar {
@@ -16,12 +19,20 @@
 
 
 h1 {
-    font-size: 48px;
+    font-size: 58px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: bisque;
     color: darkblue;
-   display: inline;
+    display: inline;
 
+}
+
+h2 {
+    margin-top: 50px;
+    font-size: 36px;
+}
+
+ p {
+    justify-content: flex-start;
 }
 
 nav ul li {
@@ -29,8 +40,21 @@ nav ul li {
     float: right;
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
-    background-color: bisque;
-    margin-left: 30px;
-    margin-top: 20px;
+    background-color: darkgray;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 30px;
     
+}
+
+
+
+
+@media screen and (max-width: 866px) {
+    .navbar a {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: left;
+    }
 }
