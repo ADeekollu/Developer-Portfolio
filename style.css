@@ -4,8 +4,8 @@
 
 :root {
     --primary: rgb(29, 29, 206);
-    --secondary: rgb(15, 121, 15);
-    --tertiary: rgb(89, 8, 25);
+    --secondary: rgb(203, 57, 20);
+    --tertiary: rgb(244, 218, 89);
     --dark: black;
     --light: white;
 }
@@ -73,29 +73,6 @@ header h1 {
 
 }
 
-/* h1 {
-    font-size: 58px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:crimson;
-    display: inline;
-    background-color: azure;
-
-}
-
-h2 {
-    margin-top: 30px;
-    font-size: 36px;
-    text-decoration: underline;
-    color: darkblue
-}
-
- p {
-    font-size: 18px;
-    line-height: normal;
-    justify-content: flex-end;
-    margin-top: 30px;
-    
-} */
 
 .content {
     max-width: 88%;
@@ -144,7 +121,7 @@ h2 {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
 
-  .page-section > h4 {
+.page-section > h4 {
     flex: 0 0 20%;
     text-align: right;
     padding-right: 15px;
@@ -153,29 +130,19 @@ h2 {
     line-height: 1.1;
   }
 
-
-
-
-/* h4 {
-    margin-top: 30px;
-    font-size: 36px;
-    text-decoration: underline;
-    color: darkblue;
-    display: inline-block;
-    
-} */
-
-.work1 {
-    background-image: url(./prework_study_guide_img.png);
-}
-
-
-
 @media screen and (max-width: 980px) {
+    main,
+    nav {
+        flex-direction: column;
+    }
     
 }
 
 
 @media screen and (max-width: 768px) {
-    
-}
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
+  
