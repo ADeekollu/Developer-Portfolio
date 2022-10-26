@@ -16,3 +16,4 @@ N/A
 Please refer to the repository 
 
 ## Link to Deployed Application
+https://adeekollu.github.io/Developer-Portfolio/
